@@ -1,15 +1,96 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="fr">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="" />
-	<meta name="author" content="" />
-	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
-	<title></title>
-	<link href="css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Développeur freelance à Lille, spécialisé dans la création de sites web et d'applications sur mesure. Contactez-moi pour votre projet digital.">
+    <title>Développeur Freelance Lille | Création de sites web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-	<h1>NON</h1>
+<header>
+    <h1>Développeur Freelance à Lille</h1>
+    <p>Création de sites web et applications sur mesure</p>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <p>Je suis Victor Coisne, un développeur freelance basé à Lille. Avec plus de 2 ans d'expérience dans le développement web, je suis passionné par la création de solutions numériques sur mesure qui répondent parfaitement aux besoins de mes clients. Mon objectif est de transformer vos idées en réalité grâce à une expertise technique solide et une approche collaborative. 
+        Je suis spécialisé dans divers domaines tels que la conception de sites vitrines, le développement d'applications web complexes et la mise en place de plateformes e-commerce performantes. J'attache une grande importance à l'écoute, à la qualité du travail et au respect des délais pour garantir votre satisfaction.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Mes services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Sites vitrines</h3>
+                <p>Des sites modernes et professionnels pour présenter votre activité.</p>
+            </div>
+            <div class="service">
+                <h3>Boutiques en ligne</h3>
+                <p>Création de plateformes e-commerce performantes.</p>
+            </div>
+            <div class="service">
+                <h3>Applications web</h3>
+                <p>Des solutions sur mesure pour répondre à vos besoins spécifiques.</p>
+            </div>
+            <div class="service">
+                <h3>Maintenance</h3>
+                <p>Optimisation et mises à jour pour garantir les performances de votre site.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div>
+                <img src="siteweb.png" alt="Projet 1">
+                <h3>Site Web</h3>
+				<p>HTML, CSS, JS & PHP</p>
+            </div>
+            <div>
+                <img src="jeuvideo.png" alt="Projet 2">
+                <h3>Jeu video</h3>
+				<p>Unity</p> 
+            </div>
+            <div>
+                <img src="logiciel.png" alt="Projet 3">
+                <h3>Logiciel</h3>
+				<p>Python</p> 
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <form>
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Développeur Freelance Lille. <a href="#">Mentions légales</a></p>
+</footer>
+
 </body>
 </html>
