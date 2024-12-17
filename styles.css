@@ -75,3 +75,58 @@ footer a {
     color: #007BFF;
     text-decoration: none;
 }
+
+.contact-form {
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .contact-form label {
+    color: black;
+  }
+  
+  .contact-form .heading {
+    font-size: 24px;
+    color: black;
+    ;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    width: 375px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
