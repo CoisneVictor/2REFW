@@ -195,3 +195,8 @@ footer a {
 .presentation-text .btn:hover {
     background-color: #0056b3;
 }
+
+p img{
+    max-width: 100%;
+    max-height: 300px;
+}
